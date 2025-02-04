@@ -1,0 +1,85 @@
+body {
+   text-align: center;
+    background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/156/536/original/photo-1515787366009-7cbdd2dc587b.jfif?1738604262');
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f0f0f0;
+    height: 100vh;
+    margin-top: 20px;
+}
+
+h1 {color: #402a23;}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"], input[type="submit"] {
+    font-family: 'Times New Roman', serif; 
+    font-size: 16px;
+    padding: 10px 15px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    transition: background 0.3s, color 0.3s;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background: #333;
+    color: white;
+}
+
+input[type="submit"]:hover, input[type="text"]:hover {
+    background: #ffcc00; 
+    color: black;
+}
+
+
+.quot {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+footer a {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    input[type="text"] {
+        width: 180px;
+    }
+}
