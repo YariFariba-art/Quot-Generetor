@@ -1,18 +1,21 @@
 body {
-   text-align: center;
-    background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/156/536/original/photo-1515787366009-7cbdd2dc587b.jfif?1738604262');
-    background-size: contain; 
+    text-align: center;
+    background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/156/872/original/Pin_by_Moonsa_on_Wallpaper___Phone_wallpaper__Iphone_wallpaper_landscape__Vintage_wallpaper.jfif?1738907133');
+    background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #f0f0f0;
+    background-attachment: fixed;
     height: 100vh;
-    margin-top: 20px;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
 }
 
+
 h1 {
-    color: #402a23;
+    color: white;
     font-size: 26px;
- opacity: 80%;
  margin-bottom: 15px;
 }
 
@@ -61,7 +64,7 @@ input[type="submit"]:hover, input[type="text"]:hover {
     text-align: center;
     padding: 20px;
     width: 280px;
-    color:  #402a23;
+    color: white;
     font-size: 18px;
     line-height: 1.4;
 }
